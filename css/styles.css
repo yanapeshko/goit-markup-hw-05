@@ -323,16 +323,17 @@ img {
 }*/
 .who-we-are .title {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   bottom: 0;
   margin: 0 auto;
   width: 100%;
-  /* padding: 27px 82px;*/
-  padding-top: 27px;
-  padding-bottom: 27px;
-  text-align: center;
+  height: 70px;
+
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   text-transform: uppercase;
 
   color: var(--title-text-color-secondary);
